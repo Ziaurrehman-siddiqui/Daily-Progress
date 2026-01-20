@@ -1,0 +1,1 @@
+"def address(point):\n    match point:\n        case (0,0):\n            return 'Origin'\n        case (x,0):\n            return f'X-Axis at {x}'\n        case (0,y):\n            return f'Y-Axis at {y}'\n        case (x,y):\n            return f'Point at ({x}, {y})'\n\nprint(address((4,0)))" 
